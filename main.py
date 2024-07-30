@@ -102,7 +102,7 @@ def view_stock_prices():
             print("Could not fetch company information.")
 
 
-# Main CLI
+# Main CLI app
 def main():
     users = load_users()
     current_user = None
